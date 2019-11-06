@@ -1,0 +1,199 @@
+object Form1: TForm1
+  Left = 700
+  Top = 418
+  Width = 450
+  Height = 209
+  Caption = 'INTAN SARI/ 160250501031'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 434
+    Height = 170
+    Align = alClient
+    Color = clFuchsia
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 88
+      Top = 48
+      Width = 91
+      Height = 20
+      Caption = 'Nilai Absen'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 88
+      Top = 80
+      Width = 89
+      Height = 20
+      Caption = 'Nilai Tugas'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 88
+      Top = 112
+      Width = 68
+      Height = 20
+      Caption = 'Nilai Mid'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 88
+      Top = 144
+      Width = 79
+      Height = 20
+      Caption = 'Nilai Final'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label5: TLabel
+      Left = 256
+      Top = 48
+      Width = 41
+      Height = 20
+      Caption = 'Hasil'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label6: TLabel
+      Left = 256
+      Top = 80
+      Width = 51
+      Height = 20
+      Caption = 'Grade'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Panel2: TPanel
+      Left = 1
+      Top = 1
+      Width = 432
+      Height = 32
+      Align = alTop
+      Caption = 'PROJECT  NILAI  MAHASISWA'
+      Color = clFuchsia
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -19
+      Font.Name = 'Small Fonts'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Edit1: TEdit
+      Left = 8
+      Top = 48
+      Width = 73
+      Height = 21
+      TabOrder = 1
+    end
+    object Edit2: TEdit
+      Left = 8
+      Top = 80
+      Width = 73
+      Height = 21
+      TabOrder = 2
+    end
+    object Edit3: TEdit
+      Left = 8
+      Top = 112
+      Width = 73
+      Height = 21
+      TabOrder = 3
+    end
+    object Edit4: TEdit
+      Left = 8
+      Top = 144
+      Width = 73
+      Height = 21
+      TabOrder = 4
+    end
+    object Edit5: TEdit
+      Left = 312
+      Top = 48
+      Width = 81
+      Height = 21
+      TabOrder = 5
+    end
+    object Edit6: TEdit
+      Left = 312
+      Top = 80
+      Width = 113
+      Height = 21
+      TabOrder = 6
+    end
+    object Panel3: TPanel
+      Left = 256
+      Top = 112
+      Width = 169
+      Height = 49
+      Color = clBackground
+      TabOrder = 7
+      object Button1: TButton
+        Left = 16
+        Top = 8
+        Width = 65
+        Height = 33
+        Caption = 'Proses'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        OnClick = Button1Click
+      end
+      object Button2: TButton
+        Left = 96
+        Top = 8
+        Width = 57
+        Height = 33
+        Caption = 'Reset'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'MS Sans Serif'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 1
+        OnClick = Button2Click
+      end
+    end
+  end
+end
